@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-urlshorterer",
+  "version": "1.0.0",
+  "description": "Node Url shortner",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariomgola/nodejs-urlShorterer.git"
+  },
+  "author": "hariom gola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hariomgola/nodejs-urlShorterer/issues"
+  },
+  "homepage": "https://github.com/hariomgola/nodejs-urlShorterer#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2",
+    "nodemon": "^2.0.15",
+    "shortid": "^2.2.16",
+    "validator": "^13.7.0"
+  }
+}
